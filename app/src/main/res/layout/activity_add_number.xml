@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddNumberActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number 1"/>
+
+    <EditText
+        android:id="@+id/edt_num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number 2"/>
+
+    <EditText
+        android:id="@+id/edt_num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number 2"/>
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result"/>
+    <Button
+        android:id="@+id/buAdd"
+        android:onClick="buClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add"/>
+    <Button
+        android:id="@+id/buSub"
+        android:onClick="buClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub"/>
+
+    <Button
+        android:id="@+id/buMul"
+        android:onClick="buClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiply"/>
+
+    <Button
+        android:id="@+id/buDiv"
+        android:onClick="buClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division"/>
+
+</LinearLayout>
